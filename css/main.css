@@ -36,7 +36,7 @@ header div{
 header h1{
   color: white;
 }
-/* profile pic and text to the right */
+/* About me*/
 .profileImg{
   max-height: 450px;
   border-radius: 10px;
@@ -52,33 +52,39 @@ header h1{
 }
 
 /* resume section */
-#resume{
-  height:500px;
-}
 .mButton{
   color: #fff;
   background-color: #2DB2FF;
   border-color: #2DB2FF;
 }
-.schoolL img{
-  max-height:150px;
-}
 .schoolW{
   background-color: #e9ecef;
   border-radius: .3rem;
 }
+.schoolL img{
+  max-height:150px;
+}
+
 /* school */
 #schools span{
   color:#CF0E2D;
 }
 .schoolBlock{
-  /* display: none; */
+  display: none;
 }
 
 /* experience */
 #experience{
   height:500px;
   display: none;
+  vertical-align: middle;
+}
+.card:hover{
+  border: 1px solid #2DB2FF;
+  background-color: rgba(45,178,255,.1);
+}
+.card-title{
+  color: #2DB2FF;
 }
 
 /* skills */
@@ -92,4 +98,5 @@ header h1{
   .navContent{
     margin-left: 0;
   }
+
 }
