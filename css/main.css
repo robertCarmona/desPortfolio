@@ -1,102 +1,126 @@
+body{
+  font-family: 'PT Serif', serif;
+}
 /* nav bar styling */
-.navB{
-  background-color: rgba(0,0,0,.2);
-  position:fixed;
+.navB {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
   z-index: 10;
 }
-.linkN{
-  background-color: rgba(45,178,255,.2);
-  border: 1px solid white;
-  border-radius: 10px;
-  color:white;
-  padding: 10px;
-}
-.linkN:hover{
-  font-size: 15px;
-  text-decoration: none;
-  background-color: #2DB2FF;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 10px;
+.linkN {
   color: white;
 }
 
-.navContent{
+.navContent {
   margin-left: auto;
 }
 /* header */
-header{
-  background:url(https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/GAF%20Lab%20Laurynas%20Pliuskys%20MSD022_0.jpg?itok=ZCNhanWg) no-repeat;
+header {
+  background: url(https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/GAF%20Lab%20Laurynas%20Pliuskys%20MSD022_0.jpg?itok=ZCNhanWg)
+    no-repeat;
   background-size: cover;
-  height:500px;
+  height: 500px;
 }
-header div{
+header div {
   font-size: 30px;
 }
-header h1{
+header h1 {
   color: white;
 }
 /* About me*/
-.profileImg{
+.profileImg {
   max-height: 450px;
+  height: auto;
   border-radius: 10px;
-  width:100%;
+  width: 100%;
 }
-.fa-linkedin{
+.fa-linkedin {
   font-size: 34px;
-  color:#0077B5
+  color: #0077b5;
 }
-.line{
-  height:10px;
+.line {
+  height: 10px;
   width: 90%;
 }
 
 /* resume section */
-.mButton{
+.mButton {
   color: #fff;
-  background-color: #2DB2FF;
-  border-color: #2DB2FF;
+  background-color: #2db2ff;
+  border-color: #2db2ff;
 }
-.schoolW{
+.schoolW {
   background-color: #e9ecef;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
-.schoolL img{
-  max-height:150px;
+.schoolL img {
+  max-height: 150px;
 }
 
 /* school */
-#schools span{
-  color:#CF0E2D;
+#schools span {
+  color: #cf0e2d;
 }
-.schoolBlock{
+.schoolBlock {
   display: none;
 }
 
 /* experience */
-#experience{
-  height:500px;
+#experience {
+  height: 500px;
   display: none;
   vertical-align: middle;
 }
-.card:hover{
-  border: 1px solid #2DB2FF;
-  background-color: rgba(45,178,255,.1);
+.card:hover {
+  border: 1px solid #2db2ff;
+  background-color: rgba(45, 178, 255, 0.1);
 }
-.card-title{
-  color: #2DB2FF;
+.card-title {
+  color: #2db2ff;
 }
 
 /* skills */
-#skills{
-  height:500px;
+#skills {
+  height: 500px;
   display: none;
 }
 
-@media(max-width: 990px){
+/* footer */
+footer{
+  height: auto;
+  background-color:#e9ecef;
+}
+#left, #right{
+  display: inline-block;
+  width:49%;
+}
+#left{
+  vertical-align: middle;
+  text-align: right;
+  font-weight: 700;
+}
+
+@media (max-width: 990px) {
   /* navbar */
-  .navContent{
+  .navContent {
     margin-left: 0;
   }
-
+}
+@media (min-width: 992px){
+  .linkN {
+    background-color: rgba(45, 178, 255, 0.2);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
+  .linkN:hover {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #2db2ff;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
 }
